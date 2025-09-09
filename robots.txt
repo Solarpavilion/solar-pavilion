@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://solar-pavilion.com/sitemap.xml
