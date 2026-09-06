@@ -1,16 +1,11 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Solar X — Public Signature</title></head>
-<body style="margin:0;padding:0;">
-<table role="presentation" width="100%" style="width:100%;">
-<tr><td background="assets/ink-feathered-v2.png" style="padding:28px 28px 28px 15%;background-color:transparent;background-image:url('assets/ink-feathered-v2.png');background-position:center;background-size:100% 100%;background-repeat:no-repeat;">
-<table role="presentation" width="100%" style="width:100%;color:#eeeeef;">
-<tr><td style="padding:0 0 18px;font-family:Arial,Helvetica,sans-serif;font-size:26px;font-weight:600;line-height:32px;color:#eeeeef;">Solar X</td></tr>
-<tr><td style="padding:0 0 14px;"><table role="presentation" width="30" style="width:30px;"><tr><td height="1" bgcolor="#bea171" style="height:1px;line-height:1px;font-size:1px;background-color:#bea171;">&nbsp;</td></tr></table></td></tr>
-<tr><td style="padding:0;font-family:'Courier New',monospace;font-size:13px;line-height:24px;color:#dddddf;"><a href="mailto:info@solar-pavilion.com" style="color:#dddddf;text-decoration:none;">info@solar-pavilion.com</a></td></tr>
-<tr><td style="padding:0;font-family:'Courier New',monospace;font-size:13px;line-height:24px;color:#dddddf;"><a href="tel:+31649540109" style="color:#dddddf;text-decoration:none;">+31 6 49540109</a></td></tr>
-<tr><td style="padding:0;font-family:'Courier New',monospace;font-size:13px;line-height:24px;color:#eeeeef;"><a href="https://solar-pavilion.com" style="color:#eeeeef;text-decoration:none;">solar-pavilion.com</a></td></tr>
-</table></td></tr></table>
-<!--[if mso]>
-<table role="presentation" width="100%" style="width:100%;"><tr><td style="padding:10px 0 0;font-family:Arial,Helvetica,sans-serif;font-size:11px;line-height:16px;color:#666666;">Due to the outdated version of your email client, some parts of this signature cannot be displayed.</td></tr></table>
-<![endif]-->
-</body></html>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from pathlib import Path; print(Path('email-signature/Signature-Responsive.html').read_text())
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'email-signature/Signature-Responsive.html'
